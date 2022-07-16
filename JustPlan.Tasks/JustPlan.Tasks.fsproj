@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Program.fs" />
+        <Compile Include="Types.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\JustPlan.User\JustPlan.User.fsproj" />
+    </ItemGroup>
+
+</Project>
